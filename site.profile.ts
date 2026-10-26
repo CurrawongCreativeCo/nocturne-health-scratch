@@ -39,7 +39,7 @@ export const siteProfileInput = defineSiteProfile({
   },
   // Left out, the site is live. Before launch: a temporary page at "/" and everything else private.
   // Changing this is a reviewed commit and a deployment; Studio cannot change it. See "Site profile".
-  // launch: { status: 'prelaunch', homepage: 'links', publicPages: [], unknownPaths: 'not-found' },
+  launch: { status: 'live' },
   // Section types clients may add. Empty: the Studio's default list (see DEFAULT_CLIENT_SECTIONS).
   clientSections: [],
   help: {
